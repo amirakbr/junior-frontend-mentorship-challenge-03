@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="icon" type="image/jpg" href="media/bckgrndimg.jpg">
+    </head>
+    <body class="bodybackground">
+        <header class="dsply-flex dsply-row">
+            <div class="headertitle">
+                   <p>
+                        Travel With Us
+                   </p>
+            </div>
+            <div class="header-user-acc">
+                   <p>
+                        Account <i class="fa fa-house-user ggg"></i>
+                   </p>
+            </div>
+        </header>
+        <main class="dsply-flex dsply-row">
+            <section class="dsply-flex section-container">
+                <div class="dsply-flex dsply-column section-content">
+                    <label for="destination">Where You Go ?</label>
+                    <input type="text" id="destination" name="destination" list="Suggest-destination" placeholder="Choose a Region">
+                    <datalist id="Suggest-destination">
+                        <option>
+                            Azerbijan
+                        </option>
+                        <option>Afghanistan , Kabul</option>
+                        <option>Armenia , Yerevan</option>
+                        <option>Azerbaijan , Baku</option>
+                        <option>Bangeladesh</option>
+                        <option>Canada, Toronto</option>
+                        <option>Tureky , Ezmir</option>
+                        <option>Iran , Mashhad</option>
+                    </datalist>
+                </div> <span class="section-content-span"></span>
+                <div class="dsply-flex dsply-column section-content">
+                    <label for="checkin">Check In</label>
+                    <input placeholder="Add a Date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="checkin" name="checkin"/>
+                </div> <span class="section-content-span"></span>
+                <div class="dsply-flex dsply-column section-content">
+                    <label for="checkout">Check Out</label>
+                    <input placeholder="Add a Date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="checkout" name="checkout"/>
+                </div> <span class="section-content-span"></span>
+                <div class="dsply-flex dsply-column section-content submit-key">
+                    <input type="submit" value="Submit" >
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
