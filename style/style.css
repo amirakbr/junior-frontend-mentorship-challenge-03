@@ -128,8 +128,31 @@ input:focus {
 .submit-key > input:hover {
     background-color: #37ae96;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1030px) {
     .section-container {
         flex-direction: column;
+    }
+    .section-content {
+        flex-direction: row;
+    }
+    .submit-key {
+        width: 50%;
+        align-self: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .section-content {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header {
+        flex-direction: column;
+    }
+    .headertitle {
+        margin: 1em 0em;
+    }
+    .header-user-acc {
+        margin: 0em;
     }
 }
